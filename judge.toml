@@ -1,7 +1,7 @@
-[jobs.lab6]
+[jobs.lab7]
 
 image = { source = "dockerfile", path = "." }
 
 run = [
-  "java -jar lab6.jar $input $ir",
+  "java -jar lab7.jar $input $ir",
 ]
